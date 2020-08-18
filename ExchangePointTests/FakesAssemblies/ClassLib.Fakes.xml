@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLib.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLib.Fakes.ShimCalulatingMachine">
+            <summary>Тип оболочки совместимости для ClassLib.CalulatingMachine</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimCalulatingMachine.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimCalulatingMachine.#ctor(ClassLib.CalulatingMachine)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:ClassLib.Fakes.ShimCalulatingMachine.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimCalulatingMachine.AllInstances.CalculateSumListOfInt32">
+            <summary>Задает оболочка совместимости CalulatingMachine.CalculateSum(List`1&lt;Int32&gt; rubles)</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimCalulatingMachine.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimCalulatingMachine.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimCalulatingMachine.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimCalulatingMachine.Bind(ClassLib.ICalulatingMachine)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimCalulatingMachine.CalculateSumListOfInt32">
+            <summary>Задает оболочка совместимости CalulatingMachine.CalculateSum(List`1&lt;Int32&gt; rubles)</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimCalulatingMachine.Constructor">
+            <summary>Задает оболочка совместимости CalulatingMachine.CalulatingMachine()</summary>
+        </member>
+        <member name="T:ClassLib.Fakes.ShimCurrencyConverter">
+            <summary>Тип оболочки совместимости для ClassLib.CurrencyConverter</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimCurrencyConverter.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimCurrencyConverter.#ctor(ClassLib.CurrencyConverter)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:ClassLib.Fakes.ShimCurrencyConverter.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimCurrencyConverter.AllInstances.ConvertToUsdInt32">
+            <summary>Задает оболочка совместимости CurrencyConverter.ConvertToUsd(Int32 rubles)</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimCurrencyConverter.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimCurrencyConverter.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimCurrencyConverter.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimCurrencyConverter.Bind(ClassLib.ICurrencyConverter)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimCurrencyConverter.Constructor">
+            <summary>Задает оболочка совместимости CurrencyConverter.CurrencyConverter()</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimCurrencyConverter.ConvertToUsdInt32">
+            <summary>Задает оболочка совместимости CurrencyConverter.ConvertToUsd(Int32 rubles)</summary>
+        </member>
+        <member name="T:ClassLib.Fakes.ShimExchangePoint">
+            <summary>Тип оболочки совместимости для ClassLib.ExchangePoint</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimExchangePoint.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimExchangePoint.#ctor(ClassLib.ExchangePoint)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="T:ClassLib.Fakes.ShimExchangePoint.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimExchangePoint.AllInstances.ComissionPercentGet">
+            <summary>Задает оболочка совместимости ExchangePoint.get_ComissionPercent()</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimExchangePoint.AllInstances.ComissionPercentSetInt32">
+            <summary>Задает оболочка совместимости ExchangePoint.set_ComissionPercent(Int32 value)</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimExchangePoint.AllInstances.ExchangeMoneyListOfInt32">
+            <summary>Задает оболочка совместимости ExchangePoint.ExchangeMoney(List`1&lt;Int32&gt; rubles)</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimExchangePoint.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.ShimExchangePoint.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimExchangePoint.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimExchangePoint.ComissionPercentGet">
+            <summary>Задает оболочка совместимости ExchangePoint.get_ComissionPercent()</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimExchangePoint.ComissionPercentSetInt32">
+            <summary>Задает оболочка совместимости ExchangePoint.set_ComissionPercent(Int32 value)</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimExchangePoint.ConstructorICalulatingMachineICurrencyConverterInt32">
+            <summary>Задает оболочка совместимости ExchangePoint.ExchangePoint(ICalulatingMachine calulatingMachine, ICurrencyConverter currencyConverter, Int32 comissionPercent)</summary>
+        </member>
+        <member name="P:ClassLib.Fakes.ShimExchangePoint.ExchangeMoneyListOfInt32">
+            <summary>Задает оболочка совместимости ExchangePoint.ExchangeMoney(List`1&lt;Int32&gt; rubles)</summary>
+        </member>
+        <member name="T:ClassLib.Fakes.StubICalulatingMachine">
+            <summary>Тип заглушки ClassLib.ICalulatingMachine</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.StubICalulatingMachine.#ctor">
+            <summary>Инициализирует новый экземпляр type StubICalulatingMachine</summary>
+        </member>
+        <member name="F:ClassLib.Fakes.StubICalulatingMachine.CalculateSumListOfInt32">
+            <summary>Задает stub ICalulatingMachine.CalculateSum(List`1&lt;Int32&gt; rubles)</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.StubICalulatingMachine.ClassLib#ICalulatingMachine#CalculateSum(System.Collections.Generic.List{System.Int32})">
+            <summary>Задает заглушка ICalulatingMachine.CalculateSum(List`1&lt;Int32&gt; rubles)</summary>
+        </member>
+        <member name="T:ClassLib.Fakes.StubICurrencyConverter">
+            <summary>Тип заглушки ClassLib.ICurrencyConverter</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.StubICurrencyConverter.#ctor">
+            <summary>Инициализирует новый экземпляр type StubICurrencyConverter</summary>
+        </member>
+        <member name="M:ClassLib.Fakes.StubICurrencyConverter.ClassLib#ICurrencyConverter#ConvertToUsd(System.Int32)">
+            <summary>Задает заглушка ICurrencyConverter.ConvertToUsd(Int32 rubles)</summary>
+        </member>
+        <member name="F:ClassLib.Fakes.StubICurrencyConverter.ConvertToUsdInt32">
+            <summary>Задает stub ICurrencyConverter.ConvertToUsd(Int32 rubles)</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,2 @@
+C:\Users\user\source\repos\ClassLib\ExchangePointTests\Fakes\ClassLib.fakes : warning : Невозможно создать оболочку совместимости для ClassLib.ICalulatingMachine: тип является интерфейсом.
+C:\Users\user\source\repos\ClassLib\ExchangePointTests\Fakes\ClassLib.fakes : warning : Невозможно создать оболочку совместимости для ClassLib.ICurrencyConverter: тип является интерфейсом.
